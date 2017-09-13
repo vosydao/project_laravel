@@ -1,0 +1,74 @@
+.panel-default>.panel-heading a{
+    text-transform: none;
+    float: right;
+    font-weight: normal;
+}
+.panel-default>.panel-heading{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+span.bg-info, span.bg-success, span.bg-warning, span.bg-danger, span.bg-primary{
+    padding: 2px 8px;
+    white-space: nowrap;
+}
+.navbar-default{
+    position: fixed;
+    width: 100%;
+}
+.admin-bar a{
+    color: #3097D1 !important;
+}
+.admin-bar a:hover{
+    text-decoration: underline !important;
+}
+
+
+.list-manage{
+    padding-left: 0;
+    list-style: none;
+    margin-bottom: 0;
+}
+.list-manage a.show,
+.list-manage a:hover{
+    background: #91c2e2;
+    text-decoration: none;
+}
+.list-manage a{
+    padding: 10px 10px;
+    display: block;
+    border-bottom: 1px solid #91c2e2;
+    background: #3097D1;
+    color: white;
+}
+.list-manage .sub{
+    padding-left: 0;
+    list-style: none;
+    display: none;
+    overflow: hidden;
+    margin: 0;
+}
+
+.list-manage .sub a{
+    padding-left: 20px;
+    background: white;
+    color: #3097D1;
+}
+.list-manage .have-sub i{
+    float: right;
+}
+.form-group input.error,.form-group textarea.error,.form-group select.error{
+    border: 1px solid #d21d19;
+}
+.form-group label.error{
+    color: #d21d19;
+}
+
+.list-category-scroll{
+    border: 1px solid #ccc;
+    padding: 10px;
+    height: 130PX;
+    overflow: scroll;
+}
+.checkbox.sub-category{
+    padding-left: 20px;
+}
